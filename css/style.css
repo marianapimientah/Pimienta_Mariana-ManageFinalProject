@@ -1,0 +1,816 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700&display=swap');
+
+/**General**/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    height: 100vh;
+}
+
+/*Header Section Nav*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 174px;
+}
+
+header img {
+    position: relative;
+    left: 10.313em;
+}
+
+.fa-bars {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+
+#nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0em 13.375em 0em 13.375em;
+}
+
+#nav ul li {
+    padding-right: 1.875em;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #242E52;
+}
+
+#nav a:hover {
+    color: #a4a4ab;
+}
+
+#nav a:active {
+    color: #7e8087;
+}
+
+#btn-h {
+    position: relative;
+    right: 165px;
+}
+
+main button {
+    background-color: #F3603B;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    height: 44px;
+    width: 134px;
+    font-size: 14px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+main button:hover {
+    background-color: #f77454;
+}
+
+main button:active {
+    background-color: #ff7c5c ;
+}
+
+/*Slider Section*/
+#slider {
+    display: flex;
+    margin: 6.25em 10.313em 6.25em 10.313em;
+}
+
+#left-sl {
+    margin-top: 4.438em;
+}
+
+#left-sl h1 {
+    width: 439px;
+    color: #232C50;
+    font-size: 50px;
+}
+
+#left-sl p {
+    margin-top: 1.75em;
+    width: 350px;
+    height: 71px;
+    line-height: 157.1%;
+}
+
+#left-sl button {
+    margin-top: 1.75em;
+}
+
+#right-sl {
+    margin-left: 4.375em;
+}
+
+/*Content Section*/
+#about-us {
+    display: flex;
+    justify-content: space-between;
+    margin: 6.25em 10.313em 8.438em 10.313em;
+    padding-top: 1.25em;
+}
+
+/*Left Zone*/
+#left-us h3 {
+    color: #232C50;
+    font-size: 36px;
+    width: 433px;
+    margin-top: 1em;
+}
+
+#left-us p {
+    margin-top: 1.75em;
+    width: 337px;
+    height: 88px;
+    line-height: 157.1%;
+}
+
+/*Right Zone*/
+#right-us {
+    margin-left: 6.25em;
+}
+
+.b-list button {
+    width: 69px;
+    height: 43px;  
+    box-shadow: none;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.h-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5em;
+}
+
+.b-list h5 {
+    padding: 0.625em 0em 0em 1.438em;
+    color: #323851;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.b-list p { 
+    width: 400px;
+    height: 104px;
+    margin-left: 5.75em;
+    color: #B3B2B7;
+    margin-top: 0.625em;
+    line-height: 26px;
+}
+
+/*Customers Section*/
+#community-title {
+    text-align: center;
+}
+
+#community-title h2 {
+    color: #242E53;
+    font-size: 39px;
+    padding-top: 1em;
+}
+
+.comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4.625em 3.125em 6.25em 3.125em;
+}
+
+.comments div {
+    width: 445px;
+    height: 219px;
+    padding: 0em 1.25em 0em 1.25em;
+    text-align: center;
+}
+
+.comments img {
+    width: 70px;
+}
+
+.comments h5 {
+    margin-top: 1.313em;
+    color: #3F4868;
+    font-size: 16px;
+}
+
+.comments p {
+    margin-top: 1.313em;
+    color: #B9B9C1;
+    font-size: 16px;
+    line-height: 156.6%;
+}
+
+#btn-content {
+    text-align: center;
+}
+
+/*Banner Section*/
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 180px;
+    background-color: #F3613C;
+    color: white;
+    height: 224px;
+}
+
+#banner h2 {
+    font-size: 40px;
+    font-weight: bold;
+    width: 460px;
+    height: 96px;
+    margin: 64px 0px 64px 165px;
+}
+#banner button {
+    background-color:#FFFFFF;
+    color: #F3603B;
+    border-style: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    height: 44px;
+    width: 134px;
+    font-size: 14px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+    
+#banner button:hover {
+    background-color: #e6e6e6;
+}
+    
+#banner button:active {
+    background-color: #cfcfcf;
+}
+    
+#banner div {
+    margin-right: 165px;
+}
+
+/*Footer Section*/
+footer {
+    display: flex;
+    height: 247px;
+    background-color: #1E1E26;
+    color: white;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+}
+
+#left img {
+    margin: 30px 80px 55px 170px;
+}
+
+#left span {
+    margin: 0px 80px 69px 170px;
+}
+
+.fa-brands {
+    font-size: 20px;
+    padding-right: 13px;
+}
+
+.fa-brands:hover {
+    color: #F3613C;
+}
+
+.fa-brands:active {
+    color: #e04a24;
+}
+
+footer ul {
+    list-style: none; 
+}
+
+footer ul li {
+    padding-top: 20px;
+}
+
+footer a:hover {
+    color: #F3613C;
+}
+
+footer a:active {
+    color: #e04a24;
+}
+
+#list-f {
+    display: flex;
+}
+
+#l-1 {
+    margin-right:8.563em;
+}
+
+#form {
+    margin-left: 100px;
+    margin-right: 165px;
+}
+
+form input {
+    border-style: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13.1806px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+#mail {
+    width: 201px;
+    height: 44px;
+}
+
+#btn-go {
+    margin-left: 9px;
+    border-style: none;
+    border-radius: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #F3603B;
+    width: 63px;
+    height: 42px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 13.1806px;
+}
+
+#btn-go:hover {
+    background-color: #f77454;
+}
+
+#btn-go:active {
+    background-color: #ff7c5c ;
+}
+
+form p {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 73px;
+    color: #8C8C94;
+    font-size: 12px;
+}
+
+#cop-none {
+    display: none;
+    visibility: hidden;
+}
+
+/*-------Media-Queries-------*/
+@media (max-width: 480px) {
+    /*------Smartphones pequeños y grandes------*/
+    main {
+        justify-content: none;
+        width: 100%;
+    }
+    /*Header Section*/
+    header {
+        height: 100px;
+        justify-content: none;
+    }
+    .fa-bars {
+        visibility: visible;
+        position: relative;
+        color: #232851;
+        font-size: 25px;
+        right: 1.5em;
+    }
+    #nav ul {
+        visibility: hidden;
+        display: none;
+    }
+    header img {
+        position: relative;
+        margin-bottom: -0.5em;
+        left: 1.5em;
+    }
+    #btn-h {
+        position: relative;
+        display: none;
+    }
+    /*Slider Section*/
+    #slider {
+        justify-content: none;
+        flex-direction: column-reverse;
+        margin: 0em;
+    }
+    #right-sl {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #right-sl img{
+        margin-left: 0.5em;
+        width: 100%;
+    }
+    #left-sl {
+        margin-top: 1.5em;  
+        text-align: center;
+    }
+    #left-sl h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 200%;
+        width: 90%;
+    }
+    #left-sl p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 90%;
+        width: 70%;
+        color: #B3B2B7;
+    }
+    #slider button {
+        margin-top: 3em;
+    }
+    /*Content Section*/
+    #about-us {
+        flex-direction: column;
+        margin: 3em 0em 0em 0em;
+        padding: 0em;
+    }
+    #left-us{
+        text-align: center;
+    }
+    #left-us h3 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 180%;
+        width: 90%;
+    }
+    #left-us p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 90%;
+        width: 70%;  
+        color: #B3B2B7;  
+    }
+    #right-us {
+        margin-left: 0em;
+    }
+    .b-list {
+        margin-left: 1em;
+        margin-top: 5em;
+    }
+    .b-list h5 {
+        padding: 0.625em 0em 0em 1em;
+        font-size: 16px;
+        font-weight: bold;
+        font-size: 90%;
+        margin-right: 1.5em;
+    }
+    .b-list p { 
+        font-size: 90%;
+        width: 90%;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+    /*Customers Section*/
+    #community-title {
+        display: flex;
+        margin-top: 3em;
+    }
+    #community-title h2 {
+        width: 90%;
+        font-size: 200%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #community-content {
+        margin-top: 3em;
+    }
+    .comments {
+        display: flex;
+        flex-direction: none;
+        justify-content: none;
+        margin: 0em 0em 0em 0em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .com {
+         display: none;
+         visibility: hidden;
+     }
+     .comments div {
+        padding: 0em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #btn-content {
+        margin-top: 5em;
+        text-align: center;
+    }
+    /*Banner Section*/
+    #banner {
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+        margin-top: 4em;
+        height: 324px;
+    }
+    #banner h2 {
+        text-align: center;
+        font-size: 200%;
+        width: 300px;
+        height: 96px;
+        margin: 2em 0em 0em 0em;
+    
+    }
+    #banner div {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4em;
+    }
+    /*Footer Section*/
+    footer {
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }    
+    #form {
+        order: -1;
+        margin: 3em 0em 0em 0em;
+    }
+    #form p {
+        display: none;
+        visibility: hidden;
+    }
+    #list-f {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #list-f ul li {
+        padding-bottom: -1em;
+    }
+    #l-1 {
+        margin-right: 4em;
+    }    
+    #l-1 {
+        margin-left: -2em;
+    }    
+    #left {
+        display: flex;
+        flex-direction: column-reverse;
+        order: 1;
+    }
+    #left img {
+        margin-right: auto;
+        margin: 3em 0em 0em 2.5em;
+    }
+    #logs {
+        display: inline;
+        flex-wrap: nowrap;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fa-brands {
+        font-size: 150%;
+        padding-right: 1em;
+    }
+    #left span {
+        margin: 0px 0px 0px 0px;
+    }    
+    #cop-none {
+        visibility: visible;
+        display: block;
+        order: 1;
+        color: #8C8C94;
+        font-size: 12px; 
+        margin-bottom: 3em;   
+    }        
+}
+
+@media(min-width: 481px) and (max-width: 1024px) {
+    /*------Tabletas*------/
+    /*Header Section*/
+    header {
+        justify-content: none;
+        width: 100vw;
+    }
+    header img {
+        left: 2em;
+    }
+    #btn-h {
+        display: none;
+        visibility: hidden;
+    }
+    #nav ul {
+        font-size: 70%;
+        margin: 0em 0em 0em 0em;
+        right: 2em;
+    }
+    /*Slider Section*/
+    #slider {
+        width: 100vw;
+        flex-direction: column-reverse;
+        margin: 0em;
+    }
+    #right-sl {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #right-sl img{
+        margin-left: 0.5em;
+        width: 100%;
+    }
+    #left-sl {
+        margin-top: 1.5em;  
+        text-align: center;
+    }
+    #left-sl h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 200%;
+        width: 90%;
+    }
+    #left-sl p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 90%;
+        width: 70%;
+        color: #B3B2B7;
+    }
+    #slider button {
+        margin-top: 3em;
+    }
+    /*Content Section*/
+    #about-us {
+        flex-direction: column;
+        margin: 3em 0em 0em 0em;
+        padding: 0em;
+    }
+    #left-us{
+        text-align: center;
+    }
+    #left-us h3 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 180%;
+        width: 90%;
+    }
+    #left-us p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 90%;
+        width: 70%;  
+        color: #B3B2B7;  
+    }
+    #right-us {
+        margin-left: 0em;
+    }
+    .b-list {
+        margin-left: 1em;
+        margin-top: 5em;
+    }
+    .b-list h5 {
+        padding: 0.625em 0em 0em 1em;
+        font-size: 16px;
+        font-weight: bold;
+        font-size: 90%;
+        margin-right: 1.5em;
+    }
+    .b-list p { 
+        font-size: 90%;
+        width: 90%;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+    /*Customers Section*/
+    #community-title {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #community-content {
+        width: 100vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .comments {
+        justify-content: none;
+        margin-top: 4em;
+        margin-bottom: 3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .comments div {
+        width: none;
+        height: none;
+        padding: 0em 1.25em 0em 1.25em;
+        text-align: center;
+    }
+    #btn-content {
+        display: block;
+        margin-top: 15em;
+    }
+    /*Banner Section*/
+    #banner {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 4em;
+        height: 324px;
+        width: 100vw;
+    }
+    #banner h2 {
+        text-align: center;
+        font-size: 200%;
+        width: 300px;
+        height: 96px;
+        margin: 2em 0em 0em 0em;
+    
+    }
+    #banner div {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4em;
+    }
+    /*Footer Section*/
+    footer {
+        width: 100vw;
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }    
+    #form {
+        order: -1;
+        margin: 3em 0em 0em 0em;
+    }
+    #form p {
+        display: none;
+        visibility: hidden;
+    }
+    #list-f {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #list-f ul li {
+        padding-bottom: -1em;
+    }
+    #l-1 {
+        margin-right: 4em;
+    }    
+    #l-1 {
+        margin-left: -2em;
+    }    
+    #left {
+        display: flex;
+        flex-direction: column-reverse;
+        order: 1;
+    }
+    #left img {
+        margin-right: auto;
+        margin: 3em 0em 0em 2.5em;
+    }
+    #logs {
+        display: inline;
+        flex-wrap: nowrap;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fa-brands {
+        font-size: 150%;
+        padding-right: 1em;
+    }
+    #left span {
+        margin: 0px 0px 0px 0px;
+    }    
+    #cop-none {
+        visibility: visible;
+        display: block;
+        order: 1;
+        color: #8C8C94;
+        font-size: 12px; 
+        margin-bottom: 3em;   
+    }        
+}
