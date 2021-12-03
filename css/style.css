@@ -284,12 +284,13 @@ footer a {
 }
 
 #left span {
-    margin: 0px 80px 69px 170px;
+    margin: 0px 50px 69px 162px;
 }
 
 .fa-brands {
     font-size: 20px;
-    padding-right: 13px;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
 }
 
 .fa-brands:hover {
@@ -568,8 +569,6 @@ form p {
     }
     #l-1 {
         margin-right: 4em;
-    }    
-    #l-1 {
         margin-left: -2em;
     }    
     #left {
@@ -579,6 +578,7 @@ form p {
     }
     #left img {
         margin-right: auto;
+        margin-left: auto;
         margin: 3em 0em 0em 2.5em;
     }
     #logs {
@@ -590,10 +590,12 @@ form p {
     }
     .fa-brands {
         font-size: 150%;
-        padding-right: 1em;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
     }
     #left span {
-        margin: 0px 0px 0px 0px;
+        padding-right: none;
+        margin: 0em 0em 0em 0em;
     }    
     #cop-none {
         visibility: visible;
@@ -755,7 +757,6 @@ form p {
     }
     /*Footer Section*/
     footer {
-        width: 100vw;
         height: 600px;
         flex-direction: column;
         align-items: center;
@@ -778,8 +779,6 @@ form p {
     }
     #l-1 {
         margin-right: 4em;
-    }    
-    #l-1 {
         margin-left: -2em;
     }    
     #left {
@@ -789,6 +788,7 @@ form p {
     }
     #left img {
         margin-right: auto;
+        margin-left: auto;
         margin: 3em 0em 0em 2.5em;
     }
     #logs {
@@ -800,10 +800,12 @@ form p {
     }
     .fa-brands {
         font-size: 150%;
-        padding-right: 1em;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
     }
     #left span {
-        margin: 0px 0px 0px 0px;
+        padding-right: none;
+        margin: 0em 0em 0em 0em;
     }    
     #cop-none {
         visibility: visible;
